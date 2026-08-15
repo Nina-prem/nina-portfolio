@@ -1010,9 +1010,9 @@ nav a.active::after {
     min-width: 0;
 
     display: flex;
-    margin-left:15px;
-    margin: bottom 30px;
-margin-right: 15px;
+    
+    margin: bottom 10px;
+
     flex-direction: column;
 
     padding: 38px;
