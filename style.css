@@ -1208,13 +1208,13 @@ nav a.active::after {
  .project-image-overlay span {
     padding: 5px 5px;
 
-    border-radius: 6px;
+    border-radius: 3px;
 
     font-size: 8px;
 
     font-weight: 600;
 
-    letter-spacing: 0.5px;
+    letter-spacing: 0.1px;
 
     color: #ffffff;
 
