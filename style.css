@@ -51,7 +51,9 @@ body {
         sans-serif;
 
     background: var(--bg);
-    color: var(--text);
+        color: #061525 var(--text);
+
+    /* color: var(--text); */
 
     line-height: 1.75;
 
@@ -437,7 +439,7 @@ nav a.active::after {
     border-color: var(--primary);
 
     background:
-        rgba(255, 255, 255, 0.35);
+        rgba(231, 231, 237, 0.35);
 }
 
 
@@ -653,7 +655,7 @@ nav a.active::after {
 .section-heading h2 {
     margin-top: 13px;
 
-    color: #e3e7ea;
+    color: #e8e4e4;
 
     font-size:
         clamp(
@@ -943,7 +945,7 @@ nav a.active::after {
     background:
         linear-gradient(
             90deg,
-            #38bdf8,
+            #38bdf8, 
             transparent
         );
 
@@ -1008,10 +1010,12 @@ nav a.active::after {
     min-width: 0;
 
     display: flex;
-
+    margin-left:15px;
+    margin: bottom 30px;
+margin-right: 15px;
     flex-direction: column;
 
-    padding: 28px;
+    padding: 38px;
 
     border:
         1px solid
@@ -1201,8 +1205,8 @@ nav a.active::after {
         );
 }
 
-.project-image-overlay span {
-    padding: 6px 10px;
+ .project-image-overlay span {
+    padding: 15px 10px;
 
     border-radius: 6px;
 
@@ -1216,7 +1220,7 @@ nav a.active::after {
 
     background:
         rgba(99, 102, 241, 0.85);
-}
+} 
 
 
 /* =====================================================
@@ -1282,7 +1286,7 @@ nav a.active::after {
 }
 
 .project-card h3 {
-    color: #f8fafc;
+    color: #e4eaea;
 
     font-size: 1.35rem;
 
@@ -1622,7 +1626,10 @@ nav a.active::after {
     line-height: 1.75;
 }
 
-
+.logo-tags{
+     color: #38bdf8;
+  
+}
 /* =====================================================
    JOURNEY
 ===================================================== */
@@ -1897,7 +1904,7 @@ nav a.active::after {
 .contact-inner h2 span {
     display: block;
 
-    color: #38bdf8;
+     color: #38bdf8;
 }
 
 .contact-inner > p {
@@ -1906,7 +1913,7 @@ nav a.active::after {
     margin:
         0 auto 30px;
 
-    color: #a9bfd4;
+    color: #eff5fb;
 
     font-weight: 500;
 
@@ -1915,7 +1922,8 @@ nav a.active::after {
 
 .contact-buttons {
     justify-content: center;
-
+    
+ 
     margin-bottom: 0;
 }
 
@@ -2423,20 +2431,21 @@ footer {
     /* ---------------------------------------------
        VERY SMALL SCREEN PROJECT IMAGES
     --------------------------------------------- */
+.project-screenshot,
+.project-image {
+    width: 85%;
+    height: 100px;
+    margin: 0 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 
-    .project-screenshot,
-    .project-image {
-        width: calc(100% + 44px);
-
-        height: 155px;
-
-        margin:
-            -22px
-            -22px
-            20px;
-    }
-
-    .project-gallery img {
-        height: 105px;
+.project-image img {
+    width: auto;
+    height: 110px;
+    max-width: 90%;
+    object-fit: contain;
     }
 }
