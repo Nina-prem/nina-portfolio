@@ -1011,7 +1011,7 @@ nav a.active::after {
 
     display: flex;
     
-    margin: bottom 10px;
+    
 
     flex-direction: column;
 
