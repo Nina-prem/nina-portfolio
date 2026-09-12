@@ -109,52 +109,34 @@ revealElements.forEach(element => {
    PROJECT FILTER
 ===================================================== */
 
-const filters =
-    document.querySelectorAll(".filter");
 
-const projectCards =
-    document.querySelectorAll(".project-card");
 
+const filters = document.querySelectorAll(".filter");
+const projectCards = document.querySelectorAll(".project-card");
 
 filters.forEach(filter => {
 
     filter.addEventListener("click", () => {
 
-        const selected =
-            filter.dataset.filter;
-
-
-        /* Active button */
-
-        filters.forEach(button => {
-
-            button.classList.remove("active");
-
+        filters.forEach(btn => {
+            btn.classList.remove("active");
         });
 
         filter.classList.add("active");
 
-
-        /* Filter projects */
+        const category = filter.dataset.filter;
 
         projectCards.forEach(card => {
 
-            const categories =
-                card.dataset.category
-                    .split(" ");
-
+            const categories = card.dataset.category.split(" ");
 
             if (
-                selected === "all" ||
-                categories.includes(selected)
+                category === "all" ||
+                categories.includes(category)
             ) {
-
                 card.classList.remove("hidden");
-
             } else {
-
                 card.classList.add("hidden");
-
             }
 
         });
@@ -162,6 +144,7 @@ filters.forEach(filter => {
     });
 
 });
+
 
 
 /* =====================================================
