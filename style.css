@@ -1893,11 +1893,25 @@ nav a.active::after {
 .logo-tags {
     color: #38bdf8;
 }
+.logo-section .section-heading h2 {
+    color: #ffffff;
+}
+
+.logo-section .section-heading h2 strong {
+    color: #4783c3;
+}
 
 
 /* =====================================================
    JOURNEY
 ===================================================== */
+.journey-section .section-heading h2 {
+    color: #ffffff;
+}
+
+.journey-section .section-heading h2 strong {
+    color: #4783c3;
+}
 
 .journey-section {
     background: #112f4d;
