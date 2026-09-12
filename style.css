@@ -1674,6 +1674,13 @@ nav a.active::after {
 /* =====================================================
    EXPERIENCE
 ===================================================== */
+.experience-section .section-heading h2 {
+    color:white;
+}
+
+.experience-section .section-heading h2 strong {
+    color: #4783c3;
+}
 
 .experience-section {
     background: #0a2238;
