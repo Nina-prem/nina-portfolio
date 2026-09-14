@@ -109,8 +109,11 @@ revealElements.forEach(element => {
    PROJECT FILTER
 ===================================================== */
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 17b6af4 (Update dashboard files)
 const filters = document.querySelectorAll(".filter");
 const projectCards = document.querySelectorAll(".project-card");
 

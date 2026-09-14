@@ -1,6 +1,3 @@
-/* =====================================================
-   RESET
-===================================================== */
 
 * {
     margin: 0;
@@ -26,7 +23,7 @@ html {
     --primary-dark: #0284c7;
     --secondary: #8b5cf6;
 
-    --text: #f8fafc;
+    --text: #040404;
     --text-light: #dbeafe;
     --muted: #a9bfd4;
 
@@ -169,6 +166,7 @@ nav {
 
 nav a {
     position: relative;
+<<<<<<< HEAD
 
     color: #102a43;
 
@@ -194,6 +192,9 @@ nav a::after {
     transition: width 0.25s ease;
 }
 
+=======
+}
+>>>>>>> 17b6af4 (Update dashboard files)
 nav a:hover,
 nav a.active {
     color: #043f5c;
@@ -467,11 +468,7 @@ nav a.active::after {
     background:
         rgba(255, 255, 255, 0.18);
 }
-
-
-/* =====================================================
-   CODE CARD
-===================================================== */
+==================================================== */
 
 .hero-code {
     display: flex;
@@ -911,7 +908,7 @@ nav a.active::after {
 }
 
 .skill-card h3 {
-    color: #f8fafc;
+    color: #d6ecec;
 
     font-size: 1.1rem;
     font-weight: 800;
@@ -1049,6 +1046,10 @@ nav a.active::after {
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 17b6af4 (Update dashboard files)
 /* =====================================================
    PROJECT 04 — SAME SIZE AS OTHER CARDS
 ===================================================== */
@@ -1159,7 +1160,11 @@ nav a.active::after {
 }
 
 .project-card h3 {
+<<<<<<< HEAD
     color: #e4eaea;
+=======
+    color: #0d0e0e;
+>>>>>>> 17b6af4 (Update dashboard files)
 
     font-size: 1.35rem;
     line-height: 1.2;
@@ -1378,6 +1383,16 @@ nav a.active::after {
     background:
         rgba(99, 102, 241, 0.85);
 }
+<<<<<<< HEAD
+=======
+.journey-section .section-heading h2 {
+    color: #ffffff;
+}
+
+.journey-section .section-heading h2 strong {
+    color: #4783c3;
+}
+>>>>>>> 17b6af4 (Update dashboard files)
 
 
 /* =====================================================
@@ -1806,9 +1821,72 @@ nav a.active::after {
    LOGO / DESIGN
 ===================================================== */
 
+
+/* =====================================================
+   LOGO & DESIGN
+===================================================== */
+
 .logo-section {
-    background: #071a2d;
+    position: relative;
+    background: #0b2945;
+    color: #ffffff;
 }
+
+/* Section heading */
+
+.logo-section .section-heading > span {
+    display: inline-block;
+
+    margin-bottom: 12px;
+
+    color: #7dd3fc;
+
+    font-size: 0.72rem;
+    font-weight: 800;
+
+    letter-spacing: 0.18em;
+}
+
+.logo-section .section-heading h2 {
+    margin-top: 0;
+
+    color:white;
+
+    font-size: clamp(2.2rem, 4vw, 3.8rem);
+
+    line-height: 1.08;
+
+    letter-spacing: -0.04em;
+
+    font-weight: 800;
+}
+
+.logo-section .section-heading h2 strong {
+    color: #38bdf8;
+
+    font-weight: 800;
+}
+
+/* Description */
+
+.logo-section .section-description {
+    max-width: 650px;
+
+    margin-top: 20px;
+
+    color: #bfd3e6;
+
+    font-size: 0.95rem;
+
+    font-weight: 500;
+
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   LOGO GRID
+===================================================== */
 
 .logo-work-grid {
     display: grid;
@@ -1817,18 +1895,34 @@ nav a.active::after {
         repeat(2, 1fr);
 
     gap: 25px;
+
+    margin-top: 45px;
 }
+
+
+/* =====================================================
+   LOGO CARD
+===================================================== */
 
 .logo-work-card {
     overflow: hidden;
 
     border:
         1px solid
-        rgba(56, 189, 248, 0.15);
+        rgba(125, 211, 252, 0.16);
 
     border-radius: 18px;
 
-    background: #0a2238;
+    background:
+        linear-gradient(
+            145deg,
+            #0d3557,
+            #0a2945
+        );
+
+    box-shadow:
+        0 15px 40px
+        rgba(0, 0, 0, 0.18);
 
     transition:
         transform 0.3s ease,
@@ -1840,36 +1934,76 @@ nav a.active::after {
     transform: translateY(-7px);
 
     border-color:
-        rgba(56, 189, 248, 0.4);
+        rgba(56, 189, 248, 0.45);
 
     box-shadow:
-        0 25px 50px
-        rgba(0, 0, 0, 0.25);
+        0 25px 55px
+        rgba(0, 0, 0, 0.30);
 }
 
+
+/* =====================================================
+   LOGO PREVIEW
+===================================================== */
+
 .logo-preview {
-    height: 180px;
+    height: 210px;
 
     display: flex;
 
     align-items: center;
     justify-content: center;
 
+<<<<<<< HEAD
     padding: 35px;
 }
 
 .logo-preview img {
     max-width: 100%;
     max-height: 210px;
+=======
+    padding: 30px;
+
+    background:
+        #061b30;
+
+    border-bottom:
+        1px solid
+        rgba(125, 211, 252, 0.10);
+}
+
+.logo-preview img {
+    width: 100%;
+    height: 100%;
+
+    max-width: 100%;
+    max-height: 150px;
+>>>>>>> 17b6af4 (Update dashboard files)
 
     object-fit: contain;
+
+    transition:
+        transform 0.3s ease;
 }
+
+.logo-work-card:hover .logo-preview img {
+    transform: scale(1.04);
+}
+
+
+/* =====================================================
+   LOGO CONTENT
+===================================================== */
 
 .logo-work-content {
     padding: 28px;
 }
 
 .logo-work-content > span {
+    display: inline-block;
+
+    margin-bottom: 7px;
+
     color: #38bdf8;
 
     font-size: 0.68rem;
@@ -1877,14 +2011,18 @@ nav a.active::after {
     font-weight: 800;
 
     letter-spacing: 0.15em;
+
+    text-transform: uppercase;
 }
 
 .logo-work-content h3 {
-    margin: 8px 0 10px;
+    margin: 6px 0 10px;
 
     color: #f8fafc;
 
     font-size: 1.4rem;
+
+    line-height: 1.25;
 
     font-weight: 800;
 }
@@ -1894,9 +2032,12 @@ nav a.active::after {
 
     font-size: 0.82rem;
 
+    font-weight: 500;
+
     line-height: 1.75;
 }
 
+<<<<<<< HEAD
 .logo-tags {
     color: #38bdf8;
 }
@@ -1906,6 +2047,82 @@ nav a.active::after {
 
 .logo-section .section-heading h2 strong {
     color: #4783c3;
+=======
+
+/* =====================================================
+   LOGO TAGS
+===================================================== */
+
+.logo-tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: 18px;
+
+    color: #38bdf8;
+}
+
+.logo-tags span {
+    padding: 5px 9px;
+
+    border:
+        1px solid
+        rgba(56, 189, 248, 0.18);
+
+    border-radius: 5px;
+
+    background:
+        rgba(56, 189, 248, 0.07);
+
+    color: #bae6fd;
+
+    font-size: 0.65rem;
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .logo-work-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .logo-section .section-heading h2 {
+        font-size: 2.4rem;
+    }
+
+    .logo-preview {
+        height: 200px;
+
+        padding: 25px;
+    }
+
+    .logo-work-content {
+        padding: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .logo-preview {
+        height: 180px;
+    }
+
+    .logo-work-content h3 {
+        font-size: 1.2rem;
+    }
+>>>>>>> 17b6af4 (Update dashboard files)
 }
 
 
@@ -2030,7 +2247,7 @@ nav a.active::after {
 }
 
 .timeline-content h3 {
-    color: #f8fafc;
+    color:white;
 
     margin: 6px 0 8px;
 
@@ -2392,12 +2609,6 @@ footer {
         gap: 35px;
     }
 }
-
-
-/* =====================================================
-   RESPONSIVE — 800
-===================================================== */
-
 @media (max-width: 800px) {
 
     .container {
@@ -2722,6 +2933,31 @@ footer {
             -22px
             -22px
             22px;
+<<<<<<< HEAD
+=======
+    }
+
+    .project-card.project-featured .project-image {
+        height: 200px;
+    }
+
+    .project-gallery img {
+        height: 110px;
+    }
+
+    .project-image-overlay {
+        padding:
+            35px
+            12px
+            12px;
+    }
+
+    .project-image-overlay span,
+    .screenshot-overlay span {
+        font-size: 0.58rem;
+
+        padding: 4px 7px;
+>>>>>>> 17b6af4 (Update dashboard files)
     }
 
     .project-card.project-featured .project-image {
