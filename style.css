@@ -166,7 +166,7 @@ nav {
 
 nav a {
     position: relative;
-<<<<<<< HEAD
+
 
     color: #102a43;
 
@@ -192,9 +192,9 @@ nav a::after {
     transition: width 0.25s ease;
 }
 
-=======
+
 }
->>>>>>> 17b6af4 (Update dashboard files)
+
 nav a:hover,
 nav a.active {
     color: #043f5c;
@@ -1046,10 +1046,7 @@ nav a.active::after {
 }
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 17b6af4 (Update dashboard files)
 /* =====================================================
    PROJECT 04 — SAME SIZE AS OTHER CARDS
 ===================================================== */
@@ -1160,11 +1157,11 @@ nav a.active::after {
 }
 
 .project-card h3 {
-<<<<<<< HEAD
+
     color: #e4eaea;
-=======
+
     color: #0d0e0e;
->>>>>>> 17b6af4 (Update dashboard files)
+
 
     font-size: 1.35rem;
     line-height: 1.2;
@@ -1383,8 +1380,7 @@ nav a.active::after {
     background:
         rgba(99, 102, 241, 0.85);
 }
-<<<<<<< HEAD
-=======
+
 .journey-section .section-heading h2 {
     color: #ffffff;
 }
@@ -1392,7 +1388,7 @@ nav a.active::after {
 .journey-section .section-heading h2 strong {
     color: #4783c3;
 }
->>>>>>> 17b6af4 (Update dashboard files)
+
 
 
 /* =====================================================
@@ -1954,14 +1950,14 @@ nav a.active::after {
     align-items: center;
     justify-content: center;
 
-<<<<<<< HEAD
+
     padding: 35px;
 }
 
 .logo-preview img {
     max-width: 100%;
     max-height: 210px;
-=======
+
     padding: 30px;
 
     background:
@@ -1978,7 +1974,7 @@ nav a.active::after {
 
     max-width: 100%;
     max-height: 150px;
->>>>>>> 17b6af4 (Update dashboard files)
+
 
     object-fit: contain;
 
@@ -2037,7 +2033,7 @@ nav a.active::after {
     line-height: 1.75;
 }
 
-<<<<<<< HEAD
+
 .logo-tags {
     color: #38bdf8;
 }
@@ -2047,7 +2043,7 @@ nav a.active::after {
 
 .logo-section .section-heading h2 strong {
     color: #4783c3;
-=======
+
 
 /* =====================================================
    LOGO TAGS
@@ -2122,7 +2118,6 @@ nav a.active::after {
     .logo-work-content h3 {
         font-size: 1.2rem;
     }
->>>>>>> 17b6af4 (Update dashboard files)
 }
 
 
@@ -2933,8 +2928,7 @@ footer {
             -22px
             -22px
             22px;
-<<<<<<< HEAD
-=======
+
     }
 
     .project-card.project-featured .project-image {
@@ -2957,7 +2951,7 @@ footer {
         font-size: 0.58rem;
 
         padding: 4px 7px;
->>>>>>> 17b6af4 (Update dashboard files)
+
     }
 
     .project-card.project-featured .project-image {
