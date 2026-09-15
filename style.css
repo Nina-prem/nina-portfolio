@@ -1,4 +1,19 @@
 
+
+
+ 
+
+ 
+
+
+
+  
+
+
+   
+
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -190,9 +205,6 @@ nav a::after {
     background: var(--primary);
 
     transition: width 0.25s ease;
-}
-
-
 }
 
 nav a:hover,
@@ -468,7 +480,6 @@ nav a.active::after {
     background:
         rgba(255, 255, 255, 0.18);
 }
-==================================================== */
 
 .hero-code {
     display: flex;
@@ -1043,10 +1054,9 @@ nav a.active::after {
     box-shadow:
         0 25px 55px
         rgba(3, 18, 32, 0.35);
+
+
 }
-
-
-
 /* =====================================================
    PROJECT 04 — SAME SIZE AS OTHER CARDS
 ===================================================== */
@@ -1157,7 +1167,6 @@ nav a.active::after {
 }
 
 .project-card h3 {
-
     color: #e4eaea;
 
     color: #0d0e0e;
@@ -1219,9 +1228,7 @@ nav a.active::after {
 }
 
 
-/* =====================================================
-   MOBILE
-===================================================== */
+
 
 @media (max-width: 1100px) {
 
@@ -2043,8 +2050,7 @@ nav a.active::after {
 
 .logo-section .section-heading h2 strong {
     color: #4783c3;
-
-
+}
 /* =====================================================
    LOGO TAGS
 ===================================================== */
@@ -2118,6 +2124,7 @@ nav a.active::after {
     .logo-work-content h3 {
         font-size: 1.2rem;
     }
+
 }
 
 
